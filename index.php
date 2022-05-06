@@ -11,25 +11,30 @@
     <script src="scripts/script.js"></script>
 </head>
 <body>
-    <div class="header">
-        <!-- <div> -->
-            <h1>Product List</h1>
-        <!-- </div> -->
-
-        <!-- <div> -->
-            <button id="add-product-btn">Add</button>
-            <button id="deltete-product-btn">Mass Delete</button>
-        <!-- </div> -->
-    </div>
-    <hr>
     <div class="container">
-        <div class="content"></div>
-        <div class="content"></div>
-        <div class="content"></div>
-        <div class="content"></div>
-        <div class="content"></div>
-        <div class="content"></div>
+
+        <div class="header">
+            <!-- <div class="div1"> -->
+                <h1>Product List</h1>
+            <!-- </div> -->
+
+            <!-- <div class="div2"> -->
+                <button id="add-product-btn">Add</button>
+                <button id="deltete-product-btn">Mass Delete</button>
+            <!-- </div> -->
+        </div>
+        <hr>
+        <div class="box">
+            <div class="content">
+                <input  class="delete-checkbox" type="checkbox" name="delete-checkbox" id="">
+            </div>
+            <div class="content"></div>
+            <div class="content"></div>
+            <div class="content"></div>
+            <div class="content"></div>
+            <div class="content"></div>
+        </div>
+
     </div>
-    
 </body>
 </html>
