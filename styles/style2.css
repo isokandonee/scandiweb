@@ -16,8 +16,8 @@ body {
     display: flex;
 }
 
-.header h1 {
-    margin-right: 75%;
+.header h2 {
+    margin-right: auto;
 }
 
 .header button {

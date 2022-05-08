@@ -8,14 +8,14 @@
     
     <link rel="stylesheet" href="styles/style.css">
     <script src="scripts/script.js"></script>
-    <title>Product List Page</title>
+    <title>Product List</title>
 </head>
 <body>
     <div class="container">
 
         <div class="header">
             <!-- <div class="div1"> -->
-                <h1>Product List</h1>
+                <h2>Product List</h2>
             <!-- </div> -->
 
             <!-- <div class="div2"> -->

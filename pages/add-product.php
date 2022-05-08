@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="../styles/style2.css">
     <script src="../scripts/script.js"></script>
     
-    <title>Product Add Page</title>
+    <title>Add Products</title>
 </head>
 <body>
     <div class="container">
 
         <div class="header">
             <!-- <div class="div1"> -->
-                <h1>Product List</h1>
+                <h2>Add Products</h2>
             <!-- </div> -->
 
             <!-- <div class="div2"> -->
@@ -25,7 +25,10 @@
         </div>
         <hr>
         <div class="box">
-
+            <form action="" method="post">
+                <label for="sku">SKU</label>
+                <input type="text" name="sku" id="sku">
+            </form>
         </div>
 
     </div>

@@ -1,10 +1,11 @@
-body{
+body {
     background-color: #fff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
-.container{
+.container {
+    background-color: red;
     display: block;
     width: 95%;
     margin: auto;
@@ -12,33 +13,34 @@ body{
     align-items: center;
 }
 
-.header{
+.header {
     display: flex;
 }
 
-.header h1{ 
-    margin-right: 75%; 
+.header h2 {
+    margin-right: auto;
 }
 
-.header button{
+.header button {
     cursor: pointer;
-    
+
 }
 
-#add-product-btn{
+#add-product-btn {
     margin-right: 10px;
 }
 
-.box{
+.box {
     display: grid;
     row-gap: 25px;
-    grid-template-columns: repeat(3, 1fr);
-    place-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    /* place-items: center; */
+    grid-template-rows: 1fr;
 }
 
-.content{
+.content {
     cursor: pointer;
-    width: 400px;
-    height: 400px;
+    width: 4000px;
+    height: 4000px;
     border: 1px solid tomato;
 }
