@@ -32,15 +32,17 @@
                     <input type="text" name="sku" id="sku">
                 </span>
                 <span>
-                    <label for="sku">NAME</label>
-                    <input type="text" name="sku" id="sku">
+                    <label for="name">NAME</label>
+                    <input type="text" name="name" id="name">
                 </span>
-                    <label for="sku">PRICE</label>
-                    <input type="text" name="sku" id="sku">
-                    <label for="sku">SKU</label>
-                    <input type="text" name="sku" id="sku">
-                    <label for="sku">SKU</label>
-                    <input type="text" name="sku" id="sku">
+                    <label for="price">PRICE</label>
+                    <input type="text" name="price" id="price">price
+                    <label for="dimension"></label>
+                    <option value="1">
+                        <select name="size" id="size"></select>
+                        <select name="weight" id="weight"></select>
+                        <select name="dimension" id="dimension"></select>
+                    </option>
             </form>
         </div>
 

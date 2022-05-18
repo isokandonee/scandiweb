@@ -47,7 +47,7 @@
         public $lenght;
         public $dimension;
 
-        public function __construct($sku, $name, $price, $height, $weight, $l)
+        public function __construct($sku, $name, $price, $height, $weight, $lenght)
         {
             $this->sku = $sku;
             $this->name = $name;
